@@ -24,7 +24,7 @@ const transform_bible_text = (text) => {
   return buf;
 }
 
-fs.readFile('./Afrikaans__Ou_Vertaling__aov__LTR.txt', 'utf8', (err, data) => {
+fs.readFile('./Xhosa__Xhosa__xhosa__LTR.txt', 'utf8', (err, data) => {
   if(err) throw err
   console.log(transform_bible_text(data));
 });
